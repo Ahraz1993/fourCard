@@ -98,7 +98,7 @@ body{
     background-color: var(--boxbgColor);
     position: relative;
     border-radius: 0.5rem;
-   
+    box-shadow: 0 0.2rem 1rem rgba(0, 0, 0, 0.2);
     
 }
 .boldHeading{
