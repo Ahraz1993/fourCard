@@ -164,12 +164,15 @@ body{
     display:none;
 }
 
- @media (min-width:700px) {
+ @media (min-width:1000px) {
     .main{
         max-width:75rem;
         
         height:auto;
     } 
+    .content{
+        width:100%;
+    }
      .desktop{
         display:flex;
     }
@@ -177,7 +180,7 @@ body{
         display:none;
     }
     .Boxes{
-        margin-top: 3rem;
+        margin-top: 2rem;
         display:grid;
         grid-template-columns: 1fr 1fr 1fr;
         column-gap: 2rem;
@@ -193,15 +196,15 @@ body{
         height:35rem;
     }
     .bottom{
-        width:22rem;
-        height:15rem;
+        width:18rem;
+        height:13rem;
         
     }
     .middle .bottom{
         margin-bottom: 2rem;
     }
     .subHeading{
-        font-size: 1rem;
+        font-size: 1.2rem;
 
     }
     .statement{
@@ -210,9 +213,12 @@ body{
         font-weight: 600;
     }
     img{
-        margin-left: 16rem;
-   
-        margin-top:4rem;
+       
+      display: inline-block;
+      max-width: 50%;
+      margin-left: 12rem; 
+      
+       height:auto;
     }
  }
 
